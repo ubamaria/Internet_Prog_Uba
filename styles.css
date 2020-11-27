@@ -1,0 +1,129 @@
+html {
+    height: 1024px;
+}
+body {
+    background: url(img/background.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Calligraffitti';
+}
+
+h1.header {
+    text-align: center;
+   position: relative;
+    width: 747px;
+    height: 178px;
+    left: 322px;
+    top: -42px;
+    right: 322px;
+    bottom: auto;
+    color: white;
+    font-size: 130px;
+    line-height: 204px;
+    font-weight: normal;
+font-style: normal;}
+
+.btn.btn-primary.p-4 {
+    position: relative;
+    width: 240px;
+    height: 65px;
+    left: 650px;
+    top: -210px;
+    font-family: Alef;
+    font-size: 22px;    
+    background: green;  
+    border: 1px solid #0C7A03;
+}
+.btn.btn-1-primary {
+    position: relative;
+    width: 240px;
+    height: 65px;
+    left: 680px;
+    top: -210px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;    
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    font-family: Alef;
+    position: relative;
+    width: 1700px;
+    height: 76px;
+    left: 0px;
+    top: -38px;
+    border-radius: 4px;
+    font-size: 22px;  
+}
+
+.card-columns.m-3.p-3 {
+    position: relative;
+    font-family: Aref Ruqaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    width: 951px;
+    height: 739.42px;
+    left: 350px;
+    top: -35px;
+    box-sizing:unset;
+}
+h2.header2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 508px;
+    height: 40px;
+    left: 550px;
+    top: -10px;
+    font-family: Aref;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 68px;
+}
+.col-6{
+    font-family: Aref Ruqaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
+    position: fixed;
+    width: 544px;
+    height: 571px;
+    left: 476px;
+    top: 314px;
+}
+.btn.btn-primary {
+    font-family: Aref Ruqaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    background: green;  
+    border: 1px solid #0C7A03;
+}
+.form-row
+{
+    font-family: Aref Ruqaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    position: fixed;
+    color: white;
+    top: 300px;
+    width: 600px;
+    height: 268px;
+    left: 550px;
+}
+.card-deck.m-3{
+    position: relative;
+    width: 1357px;
+    height: 352px;
+    left: 175px;
+    top: 30px;
+}
+h5.card-title{
+    font-weight: bold;
+}
