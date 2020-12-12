@@ -33,8 +33,16 @@ function checkCount(count) {
     };
 }
 function checkPayment(payment) {
-  
-}
+    var inp = document.getElementsByName('payment');
+
+    for (var i = 0; i < inp.length; i++) {
+      var radio = inp[i];
+      if (radio.type == "radio" && radio.checked) {
+          return true
+      }
+      }
+      return false;
+  }
 function showMessage(type, text) {
 Swal.fire({
 position: 'center',
