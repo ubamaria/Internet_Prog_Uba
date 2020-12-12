@@ -10,6 +10,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel = "stylesheet" href = "styles.css"/>
     <link rel="icon" type="image/png" href="img/logo.png" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>  
 </head>
 <body>
     <h1 class="header">    
@@ -18,7 +19,6 @@
         <a class="btn btn-1-primary" href="korzina_code.html" role="button"><img src='img/korzina.png' width="70" height="70"></a>
 </h1>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -58,13 +58,13 @@
             <div class="form-group row">
                 <label for="inputName" class="col-sm-2 col-form-label">Ваше имя</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputName" placeholder="Введите ваше имя">
+                    <input type="text" class="form-control" name="FIO" id="inputName" placeholder="Введите ваше имя">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="inputPhone" class="col-sm-2 col-form-label">Телефон</label>
                 <div class="col-sm-10">
-                    <input type="tel" class="form-control" id="inputPhone" placeholder="+7">
+                    <input type="phone" class="form-control" id="inputPhone" placeholder="+7">
                 </div>
             </div>
             <div class="form-group row">
@@ -105,11 +105,13 @@
             </fieldset>
             <div class="form-group row">
                 <div class="col-sm-10">
-                    <a class="btn btn-primary" href="#" >Заполнить форму</a>
+                    <button type="submit" class="btn btn-primary">Заполнить форму</button>
+                    <!-- <a class="btn btn-primary" href="#" >Заполнить форму</a> -->
                 </div>
             </div>
         </div>
     </form>
+    <script src="site.js"></script>
 </body>
 </html>
 

@@ -2,6 +2,7 @@ html {
     height: 1024px;
 }
 body {
+    background-color:rgb(41, 40, 40);
     background: url(img/background.png) no-repeat center center fixed;
     background-size: cover;
     font-family: 'Calligraffitti';
@@ -28,6 +29,8 @@ font-style: normal;}
     height: 65px;
     left: 650px;
     top: -210px;
+    padding: 5px;
+    margin: 5px;
     font-family: Alef;
     font-size: 22px;    
     background: green;  
@@ -56,7 +59,7 @@ font-style: normal;}
     font-size: 22px;  
 }
 
-.card-columns.m-3.p-3 {
+/* .card-columns.m-3.p-3 {
     position: relative;
     font-family: Aref Ruqaa;
     font-style: normal;
@@ -67,7 +70,32 @@ font-style: normal;}
     left: 350px;
     top: -35px;
     box-sizing:unset;
+} */
+.card-group {
+    padding: 10px;
+    width: 1200px;
+padding-left: 480px;
+overflow: hidden;
+
+    font-family: Aref Ruqaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    /* display: flexbox;
+  flex-wrap: wrap; */
+  flex-basis: 100%;
 }
+/* .card-group {
+   overflow: hidden;
+    width: 1500px;
+padding-left: 260px;
+
+    font-family: Aref Ruqaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+} */
+
 h2.header2 {
     position: relative;
     text-align: center;
@@ -88,11 +116,11 @@ h2.header2 {
     font-weight: normal;
     font-size: 15px;
     color: white;
-    position: fixed;
+    position: relative;
     width: 544px;
     height: 571px;
     left: 476px;
-    top: 314px;
+    top: 10px;
 }
 .btn.btn-primary {
     font-family: Aref Ruqaa;
@@ -110,9 +138,9 @@ h2.header2 {
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    position: fixed;
+    position: relative;
     color: white;
-    top: 300px;
+    top: 10px;
     width: 600px;
     height: 268px;
     left: 550px;
