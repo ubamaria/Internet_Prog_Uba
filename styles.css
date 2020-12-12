@@ -1,8 +1,8 @@
 html {
     height: 1024px;
+    background:rgb(41, 40, 40);
 }
 body {
-    background-color:rgb(41, 40, 40);
     background: url(img/background.png) no-repeat center center fixed;
     background-size: cover;
     font-family: 'Calligraffitti';
@@ -74,7 +74,7 @@ font-style: normal;}
 .card-group {
     padding: 10px;
     width: 1200px;
-padding-left: 260px;
+padding-left: 480px;
 overflow: hidden;
 
     font-family: Aref Ruqaa;
