@@ -23,20 +23,20 @@ h1.header {
     font-weight: normal;
 font-style: normal;}
 
-.btn.btn-primary.p-4 {
+.btn.order{
     position: relative;
+    color: white;
     width: 240px;
     height: 65px;
     left: 650px;
     top: -210px;
-    padding: 5px;
-    margin: 5px;
+    padding: 15px;
     font-family: Alef;
     font-size: 22px;    
     background: green;  
     border: 1px solid #0C7A03;
 }
-.btn.btn-1-primary {
+.btn.korzina {
     position: relative;
     width: 240px;
     height: 65px;
@@ -59,18 +59,6 @@ font-style: normal;}
     font-size: 22px;  
 }
 
-/* .card-columns.m-3.p-3 {
-    position: relative;
-    font-family: Aref Ruqaa;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    width: 951px;
-    height: 739.42px;
-    left: 350px;
-    top: -35px;
-    box-sizing:unset;
-} */
 .card-group {
     padding: 10px;
     width: 1200px;
@@ -81,20 +69,8 @@ overflow: hidden;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    /* display: flexbox;
-  flex-wrap: wrap; */
   flex-basis: 100%;
 }
-/* .card-group {
-   overflow: hidden;
-    width: 1500px;
-padding-left: 260px;
-
-    font-family: Aref Ruqaa;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-} */
 
 h2.header2 {
     position: relative;
